@@ -1,0 +1,121 @@
+    /*
+        Tema: Itaú
+        Componente: BoxIcon
+    */
+
+    @import "@sass/variables";
+
+    /* Variables de estilo Tema Itaú */
+
+    #main {
+    
+    
+    .form_car_quote {
+        background-color: $white;
+
+        .colradiobutton{
+            margin-bottom: 10px;
+        }
+
+        .label{
+            font-size: 14px;
+            color: #42484C;
+        }
+
+        .label2{
+            font-size: 14px;
+            color: #546576;
+        }
+
+        .form_car_quote_row{
+            display: flex;
+
+            .column_form_car_quote{
+                display: flex;
+
+                .form_image{
+                    overflow: hidden;
+                    img{
+                        clip-path: polygon(27% 0, 100% 0%, 100% 100%, 0% 100%);
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: right;
+                        background-color: white;
+                    }
+                }
+                /*.input-group {         
+                    max-height: 39px; 
+                    padding-bottom: 5px;     
+                    padding-top: 10px; 
+                    background-color: #fafbfc;
+              
+                    .input-group-text{
+                        padding-top: 3px;
+                        padding-bottom: 0px;
+                        border-radius: 1px;
+                    }
+                }*/
+
+                .form-control{
+                    padding-top: 3px;
+                    padding-bottom: 0px;
+                    height: 37px;
+                    border-radius: 1px;
+                    color: #43484C ;
+                    margin-bottom: 0px !important;
+
+                }
+        
+                .form_car_quote_title {
+                    position: left;
+                    color: #E3722C;
+                    text-align: left;
+                    margin-left: 5%;
+                    width: 160%;
+                    font-size: 18px;
+                    font-weight: bold;
+        
+                    h4 {
+                        font-size: 18px;
+                        padding: 30px 10px 10px 46px;
+                        color: $color-text;
+                    }
+                }
+                
+                .form_car_quote_sub_title {
+                    padding: 10px;
+                    border-radius: 6px;
+                    color: $blue-sparkly;
+                    font-weight: bold;
+                    border-color: white;
+                    width: 117%;
+                    font-size: 12px;
+                    background-color:$gray-250 ;
+                }
+
+                .button {
+                    width: 70%;
+                }
+
+                .patente {
+                
+                    color: #EC7000;
+                    padding: 7px;
+                  //  border: 1px solid $danger;
+                    border-radius: 4px;   
+                    max-height: 39px;  
+                }    
+                     
+                .column_fecha{
+                    padding: 0px 15px 0px 0px;
+                }
+               
+            }
+        }
+    }
+    .celular {
+        padding-left :14px;
+        font-size: 14px;
+        color: #546576;
+    }
+}

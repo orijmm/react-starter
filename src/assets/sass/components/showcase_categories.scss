@@ -1,0 +1,83 @@
+/*
+	Tema: Itaú
+	Componente: Showcase
+	Sub-Componente: Categories 
+ */
+
+@import "@sass/variables";
+
+/* Variables de estilo Tema Itaú */
+
+#main {
+
+	.showcase_tab_categories {
+        padding: 0;
+
+        .nav-item {
+            border-radius: 0;
+            max-width: 193px;
+            max-height: 87px;
+
+            &:first-child a{
+                border-top: 0px;
+            }
+
+            a {
+                padding: 0px 0px 1px 0px;
+                border: 1px solid $gray-400;
+                border-left: 4px solid transparent;
+                border-bottom: 0px;
+                border-radius: 0px;
+                background: $white;
+                color: $gray-900;
+                font-weight: 600;
+                text-transform: capitalize;
+                position: relative;
+                transition: all ease-in-out 0.3s;
+
+                &.active {
+                    border-right: 0px;
+                }
+                &>div{
+                    padding: 20px 10px 0px 70px;
+                    display: table-cell;
+                    vertical-align: middle;
+                    height: 86px;
+
+                    i{
+                        position: absolute;
+                        top: 25px;
+                        left: 25px;
+                        font-size: 32px;
+                    }
+    
+                    p {
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+        }
+
+        @each $name, $value in $colors {
+            .nav-item.#{$name} a.active,
+            .nav-item.#{$name} a:hover{
+                border-left-color: $value;
+                border-right-color: transparent;
+                p, i {
+                    color: $gray-800;
+                    color: $value;
+                    
+                }
+                
+            }
+            .nav-item.#{$name} a{
+                border-left-color: $value;
+                p, i {
+                    color: $gray-800;
+                    
+                }
+            }
+        }
+    }
+}

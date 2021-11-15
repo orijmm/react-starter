@@ -1,0 +1,24 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+
+ #main {
+    .box_info{
+      border-radius: 8px;
+      background-color: $gray-250;
+      padding: 10px 25px;
+      margin: 0px 57px 0px 51px;
+      font-family: "ItauText";
+      h6{
+        color: $blue-sparkly;
+        font-size: 12px;
+        margin: 0px 4px 2px 0px;
+        font-weight: bold;
+      }
+      p{
+        color: $blue-sparkly;
+        font-size: 12px;
+        margin: 0px 4px 2px 0px;
+      }
+    }
+ }
+ 

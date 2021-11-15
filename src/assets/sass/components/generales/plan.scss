@@ -1,0 +1,100 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+
+#main{ 
+    .title_plan{
+        margin: 8px 0px 20px 65px;
+        color: #5A6978;
+    }
+   .table_plan{
+    font-family:'ItauText';
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid  $color-border ;
+    border-radius:8px;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    thead {
+        background-color: $orange; 
+    }
+    th{
+        border-top: 0px;
+        font-size: 16px;
+        font-weight: bold;
+        color: $white;
+        text-align: center;
+        padding: 15px;
+        &:nth-child(1){
+            border-right: 1px solid white;
+        } 
+    }
+    tr:nth-child(even) {
+        background: #FAFBFC;
+    }
+    tr{
+        .prima_bruta{
+            padding-left: 26px !important;
+            color: #42484C;
+            //font-weight: bold;
+        }
+    }
+    td{
+        font-family:'ItauText';
+        font-size: 14px;
+        font-weight: 400px;
+        color: #5A6978;
+        &:nth-child(1){
+            text-align: left;
+        }
+        &:nth-child(1){
+            border-right: 1px solid $color-border;
+            padding: 25px 14px 8px 16px;
+        }
+        
+    }
+    
+    .info_uf{
+            font-size: 16px;
+            font-weight: 400;
+            b{
+                font-weight: 700;
+                color:#42484C;
+                font-size: 18px !important;
+            }
+        }
+  
+    .td1{
+        border-collapse: separate;
+        border-spacing: 0;
+        border: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+        font-size: 14px;
+    }
+    .td2{
+        border-collapse: separate;
+        border-spacing: 0;
+        border: 0px solid  $color-border ;
+        border-left: 0px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        font-size: 14px;
+    }
+    .title1{
+        border-collapse: separate;
+        border-spacing: 0;
+        border: 0px solid $color-border ;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 8px;
+    }
+    .title2{
+        border-collapse: separate;
+        border-spacing: 0;
+        border: 0px solid  $color-border ;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 0px;
+        width: 50%;
+    }
+   }
+}

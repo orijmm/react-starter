@@ -1,0 +1,84 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+  /* tables */
+  .style1{
+    border: 1px $gray-300 solid;
+    border-radius: 8px;
+   
+    table{
+        border-radius: 8px;
+        overflow: hidden;
+        font-family:  $font-family-base;
+
+        tr{
+            text-align: center;
+
+            &:nth-child(odd){
+                background-color: $gray-050;
+            }
+
+            td{
+                &:nth-child(1){
+                    text-align: left;
+                }
+
+                font-size: 14px;
+                padding: 15px !important;
+                border-left: 1px  $gray-300 solid;
+                color: #5A6978;
+                font-family:ItauText;
+                .circle {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #5A6978;
+                    font-family:"arial";}
+            }
+          
+            th{
+                border: 1px  $gray-300  solid;
+                background-color: $orange;
+                text-align: center;
+                font-weight: bold;
+                padding: 15px 0px;
+                color:#FFFFFF;
+                font-size: 14px;
+                font-family:ItauText;
+            }
+        }
+        .trr{
+            text-align: center;
+
+            &:nth-child(odd){
+                background-color: $gray-050;
+            }
+
+            td{
+                &:nth-child(1){
+                    text-align: left;
+                }
+
+                font-size: 14px;
+                padding: 4px !important;
+                border-left: 1px  $gray-300 solid;
+                color: #5A6978;
+                font-family:ItauText;
+                .circle {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #5A6978;
+                    font-family:"arial";}
+            }
+          
+            th{
+                border: 1px  $gray-300  solid;
+                background-color: $orange;
+                text-align: center;
+                font-weight: bold;
+                padding: 15px 0px;
+                color:#FFFFFF;
+                font-size: 14px;
+                font-family:ItauText;
+            }
+        }        
+    }
+}

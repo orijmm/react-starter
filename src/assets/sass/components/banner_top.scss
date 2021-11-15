@@ -1,0 +1,58 @@
+/*
+	Tema: Itaú
+	Componente: TopBanner
+ */
+
+@import "../variables";
+
+/* Variables de estilo Tema Itaú */
+
+#main {
+    .banner_top {
+        background-color: $white;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 -10px 26px;
+        text-align: center;
+        
+        
+        .row-inner {
+            background: $white;
+            padding: 8px 3px;
+            border-radius: 15px;
+            margin: 0px auto;
+
+            div[class*="col-"]{
+
+                &:not(:last-child){
+                    border-right: 1px solid $gray-400;
+                }
+
+                .box_product {
+                
+                    .box_product_content{
+                        padding-top: 5px;
+                        h6 {
+                            font-size: 16px;
+                            color: $gray-700;
+                            min-height: 24px;
+                            font-weight: bold;
+                        }
+                    }
+
+                    .box_product_footer {
+                        text-align: right;
+                        
+                        .btn {
+                            background: $white;
+                            color: $orange;
+                            border-color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

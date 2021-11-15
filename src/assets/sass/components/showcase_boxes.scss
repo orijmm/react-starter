@@ -1,0 +1,57 @@
+/*
+	Tema: Itaú
+	Componente: Showcase
+	Sub-Componente: Boxes 
+ */
+
+@import "@sass/variables";
+
+/* Variables de estilo Tema Itaú */
+
+#main{
+
+	.showcase_tab_boxes {
+        background: $white;
+        padding: 15px 25px 0 0;
+        
+		@each $name, $value in $colors {
+            .#{$name} .box_product {
+                border-top: 4px solid $value !important;
+            }
+        }
+
+        .tab-content div[class*="col-"] {
+            margin-bottom: 2px;
+            padding: 8px 5px 0px 5px;
+
+            .box_product {
+                margin-top: 11px;
+                border: 1px solid $gray-400;
+                padding: 8px 17px 0px 17px;
+                border-radius: 20px;
+                height: 100%;
+
+                .box_product_content {
+                    min-height: 130px;
+
+                    h6 {
+                        font-weight: 500;
+                        min-height: 39px;
+                    }
+
+                    p{
+                        color: $gray-700;
+                    }
+                }
+
+                .box_product_footer {
+                    
+                    text-align: center;
+                    .btn {
+                        min-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

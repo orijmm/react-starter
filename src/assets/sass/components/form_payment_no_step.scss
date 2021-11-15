@@ -1,0 +1,95 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+
+#main {
+  .form_payment_no_step {
+    padding-left: 49px;
+    background-color: $white;
+    .form_payment_form {
+      margin-left: 8px;
+      label {
+        margin-top: 4px;
+      }
+      .title-method-payment {
+        margin-left: 10px;
+        margin-bottom: -10px;
+        font-size: 16px;
+        color: #546576;
+        font-family: 'ItauText';
+        font-weight: 400;
+      }
+      .form_payment_column {
+        .title-label {
+          color: $gray-700;
+          font-size: 14px;
+          font-weight: 400;
+          margin-top: 20px;
+          margin-bottom: 0px;
+          line-height: 10px;
+          text-transform: lowercase;
+          &:first-letter {
+            text-transform: uppercase;
+          }
+        }
+        .client_name {
+          color: $gray-700;
+        }
+      }
+    }
+    .form_payment_buttons {
+      padding: 0px 50px 30px 50px;
+      text-align: right;
+
+      .button_footer {
+        border-color: $gray-300;
+        background-color: $white;
+        color: $blue-sparkly;
+        margin: 7px;
+        min-width: 22%;
+        text-align: center;
+        font-family: Arial;
+      }
+      .button_footer_next {
+        border-color: $gray-300;
+        background-color: $white;
+        color: $gray-500;
+        margin: 7px;
+        width: 148px;
+        height: 40px;
+        text-align: center;
+      }
+      .button_next {
+        border: 1px solid $amber;
+        color: $amber;
+        background-color: white;
+        width: 148px;
+        height: 40px;
+        font-size: 14px;
+      }
+      .button_next:hover:enabled {
+        background-color: $amber;
+        color: white;
+      }
+    }
+    .row_form_payment_radio {
+      .radio {
+        margin: 13px 30px 61px 25px;
+        color: $gray-700;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'ItauText';
+      }
+    }
+    .num-tarjeta {
+      .form-control-num-tarjeta {
+        width: 43px;
+        margin: 4px 10px 4px 25px;
+        box-sizing: border-box;
+        border: 0px;
+        color: $gray-700;
+        font-style: italic;
+        -webkit-text-security: disc;
+      }
+    }
+  }
+}

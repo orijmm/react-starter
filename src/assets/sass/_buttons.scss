@@ -1,0 +1,63 @@
+/*
+	Tema: Itaú
+	Archivo de estilos para botones
+ */
+
+/* Botones */
+#main {
+    .btn {
+        font-size: 14px;
+        padding: 13px 25px;
+        line-height: 16px;
+        margin: 7px;
+        text-decoration: none;
+        font-weight: normal;
+        display: inline-block;
+        text-align: center;
+        border-radius: 12px;
+        transition: all 0.3s linear;
+        box-sizing: border-box;
+        white-space: nowrap;
+        box-shadow: none;
+        width: 148px;
+        height: 40px;
+        max-width: 80%;
+        
+        &.disabled_click {
+            pointer-events: none;
+            cursor: pointer;
+        }
+
+        &.cuadrado {
+            border-radius: 0px;
+        }
+
+        &.circulo {
+            border-radius: 40px;
+        }
+    }
+
+    .btn-orange {
+        background: $orange !important;
+        color: $white !important;
+    }
+
+    .btn-white {
+        background: $white !important;
+        color: $amber !important;
+        border-color: $amber !important;
+        font-family: Arial;
+    }
+
+    .btn-white:hover {
+        background: $amber !important;
+        color: $white !important;
+    }
+
+    
+
+    /* link */
+    .link-orange {
+        background: $orange;
+    }
+}

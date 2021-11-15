@@ -1,0 +1,120 @@
+/*
+	Tema: Itaú
+	Componente: Preloader
+*/
+
+@import "@sass/variables";
+
+/* Variables de estilo Tema Itaú */
+
+.preloader{
+    z-index: 99999999999;
+    position: fixed;
+    display: block;
+    width: 100%;
+    background: $white;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    .preloader-inner{
+        position: absolute;
+        display: block;
+        top: 30%;
+        width: 100%;
+        height: 150px;
+        text-align: center;
+
+        .container-ball{
+            
+            &>div{
+
+                display: inline-block;
+                position: relative;
+                width: 30px;
+                height: 90px;
+                margin-right: 22px;
+
+                .ball {
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 50%;
+                    background-color: $orange;
+      
+                    animation-name: bounce;
+                    animation-duration: 0.7s;
+                    animation-direction: alternate;
+                    animation-timing-function: ease-in-out;
+                    animation-iteration-count: infinite;
+                }
+      
+                .shadow{
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 30px;
+                    height: 3px;
+                    bottom: 0px;
+                    border-radius: 50%;
+                    background-color: rgba($black, 0.2);
+                    box-shadow: 0 0 10px rgba($black, 0.9);
+                    left: -10%;
+                    filter: blur(2px);
+                    opacity: 0.8;
+                    animation-name: xcale;
+                    animation-duration: 0.7s;
+                    animation-direction: alternate;
+                    animation-timing-function: ease-in-out;
+                    animation-iteration-count: infinite;
+                }
+            
+            }
+            
+        }
+
+        .container-text{
+            padding-top: 12px;
+
+            p{
+                text-align:center;
+                padding:8px;
+                color:$gray-700;
+                line-height: 24px;
+                font-size: 14px;
+                text-indent: -2em;
+
+                span.message{
+                    display: block;
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+}
+
+@keyframes bounce {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+
+    to {
+      transform: translate3d(0, 60px, 0);
+    }
+}
+
+  @keyframes xcale {
+      0% {
+          transform: scaleX(1);
+      }
+      30% {
+          transform: scaleX(1);
+      }
+      70% {
+          transform: scaleX(1.2);
+      }
+      100% {
+          transform: scaleX(1.4);
+      }
+  }

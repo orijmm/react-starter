@@ -1,0 +1,186 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+
+// correcciones
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input.select-search__input {
+  font-family: "ItauText" !important;
+  color: #43484C !important;
+}
+
+input#birthdate {
+  font-family: "ItauText" !important;
+  color: #43484C !important;
+}
+
+input#phone {
+  font-family: "ItauText" !important;
+  color: #43484C !important;
+}
+
+input#email {
+  font-family: "ItauText" !important;
+  color: #43484C !important;
+}
+
+input#confirmemail {
+  font-family: "ItauText" !important;
+  color: #43484C !important;
+}
+
+input#address {
+  font-family: "ItauText" !important;
+  color: #43484C !important;
+  font-size: 16px !important;
+}
+
+input#prefixPhone {
+  font-family: "ItauText" !important;
+  color: #43484C;
+}
+//card
+.card_box{
+  box-shadow: 0px 0px 5px 1px #e8e8e8;
+  border-radius: 12px !important;
+  margin-right: 4%;
+  margin-left: 3%;
+  .card-img{
+    width: auto;
+    //border-radius: 12px;
+    border-top-left-radius: 12px
+  }
+}
+.card_box_form{
+  box-shadow: 0px 0px 5px 1px #e8e8e8;
+  border-radius: 10px !important;
+  padding-bottom: 4%;
+
+}
+.title_box{
+  margin: 0 7%;
+  padding-top: 6px;
+  font-family: Arial;
+}
+//modal
+.msj_alert{
+  color: #43484C;
+  font-size:14px ;
+  font-weight: 400;
+  font-family: Arial;
+}
+.title_modal{
+  font-size: 18px;
+  color: $orange;
+  font-weight: bold;
+  margin-top:4%;
+}
+.button_exit{
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  color: #007AB7 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button_save{
+  font-size: 14px !important;
+}
+.list-group-item {
+  font-size: 14px;
+  font-family: Arial;
+  text-align: left;
+}
+
+
+// correcciones
+#main {
+  .datePerson {
+    position: relative;
+    i.icon.icon-itaufonts_calendario {
+      position: absolute;
+      right: 8%;
+      top: -2%;
+    }
+  }
+  .box_beneficiaries {
+    h5 {
+      font-size: 18px;
+      font-family: Arial;
+      color: $gray-700;
+      font-weight: bold;
+      margin-top: 5%;
+    }
+    a{
+      color: #007AB7;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .parraf_card_box{
+      font-size: 14px !important;
+      color: #43484C;
+      font-weight: 400;
+      font-family: Arial;
+      margin-right: 7%;
+      margin-left: 7%;
+    }
+
+    .box-percentaje{
+      font-size: 24px;
+      color: $blue-sparkly;
+      font-weight: 700;
+    }
+    .box-percentaje-error{
+      font-size: 24px;
+      color: #B71C1C;
+      font-weight: 700;
+    }
+    .box-percentaje-error-text{
+      font-size: 14px;
+      color: #B71C1C;
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 16px;
+      font-family: Arial;
+      color: $amber;
+      font-weight: bold;
+    }
+    label {
+      color: $gray-700;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "ItauText";
+      margin-top: 22px;
+      margin-bottom: 0px;
+    }
+    .info {
+      color: $gray-700;
+      font-size: 12px;
+      font-weight: 400;
+      font-family: "ItauText";
+      margin: 3% 4% 3% 6%;
+    }
+    .icon {
+      position: absolute;
+      right: 15%;
+      font-size: 24px;
+      margin-top: 50px;
+      color: #43484C;
+    }
+  }
+  input#prefixPhone:disabled {
+    color: #B4B4B4;
+    background: #FAFBFC;
+    //font-size: 14px;
+    font-family: Arial;
+    font-weight: 400;
+  }
+}

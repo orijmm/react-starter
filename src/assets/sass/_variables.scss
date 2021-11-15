@@ -1,0 +1,141 @@
+/*
+	Tema: Itaú
+	Archivo de variables de estilos
+ */
+
+/* Colores */
+
+$white:    #ffff !default;
+$gray-050: #FAFBFC !default;
+$gray-100: #FCFDFD !default;
+$gray-110: #eff0f2 !default;
+$gray-200: #E4ECF4 !default;
+$gray-250: #f6f8fa !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #8B98AB !default;
+$gray-640: #7C869B !default;
+$gray-650: #6E7B8F !default;
+$gray-660: #677484 !default;
+$gray-670: #747F90 !default;
+$gray-680: #617082 !default;
+$gray-700: #546576 !default;
+$gray-800: #3c4245 !default;
+$gray-900: #42484C !default;
+$gray-920: #43484C !default;
+$black:    #000 !default;
+$graphite_black: #252220 !default;
+
+$grays: () !default;
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "650": $gray-650,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+$blue:            #004388 !default;
+$indigo_blue:     #005D95 !default;
+$indigo:          #6610f2 !default;
+$purple:          #6f42c1 !default;
+$pink:            #e83e8c !default;
+$red:             #dc3545 !default;
+$orange:          #EC7000 !default;
+$yellow:          #ffc107 !default;
+$green:           #008859 !default;
+$teal:            #20c997 !default;
+$cyan:            #17a2b8 !default;
+$blue-light:      #daeef6 !default;
+$blue-sparkly:    #007AB7 !default;
+$brown:           #9a6200 !default;
+$tittle-orange:   #E3722C !default; 
+$amber:           #FA6400 !default;
+$light-yellow:    #F7B500 !default;
+
+
+$color-text:      #5A6978 !default;
+$color-border:    #DFE6EE !default; 
+$color-subtitle:  #8B98AB !default;
+$color-icon:      #1F4469 !default;
+$color-badge:     #003399 !default;
+
+
+
+$colors: () !default;
+$colors: map-merge(
+  (
+    "blue":       	$blue,
+    "indigo":     	$indigo,
+    "purple":     	$purple,
+    "pink":       	$pink,
+    "red":        	$red,
+    "orange":     	$orange,
+    "yellow":     	$yellow,
+    "green":      	$green,
+    "teal":       	$teal,
+    "cyan":       	$cyan,
+    "white":      	$white,
+    "gray":       	$gray-600,
+    "gray-dark":  	$gray-800,
+    "blue-sparkly": $blue-sparkly,
+	  "brown": 		    $brown,
+	  "black": 		    $black
+  ),
+  $colors
+);
+
+$primary:       $orange   !default;
+$secondary:     $gray-600 !default;
+$success:       $green    !default;
+$info:          $cyan     !default;
+$warning:       $yellow   !default;
+$danger:        $red      !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$line-height-lg:              1.5 !default;
+$line-height-sm:              1.5 !default;
+
+$border-width:                1px !default;
+$border-color:                $gray-300 !default;
+
+$border-radius:               .25rem !default;
+$border-radius-lg:            .3rem !default;
+$border-radius-sm:            .2rem !default;
+
+$rounded-pill:                50rem !default;
+
+//fuentes
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      'ItauText' !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;

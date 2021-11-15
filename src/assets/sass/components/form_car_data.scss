@@ -1,0 +1,501 @@
+/*
+        Tema: Itaú
+        Componente: FormCarInpection
+    */
+
+    @import "@sass/variables";
+
+    /* Variables de estilo Tema Itaú */
+
+    button.ml-0.btnAdjuntar.btn.btn-outline-secondary {
+      padding: 5% 5% !important;
+    }
+
+    .maxWidth0{
+      max-width: 0 !important;
+    }
+    .border-left_info_card {
+      border-left: 1px solid #979797 !important;
+      height:100%;
+    }
+
+    #main .select-search .select-search__input{
+      font-size: 16px !important;
+      font-weight: 400;
+      font-family: Arial;
+      color : #4D5256  ;
+    }
+    #main .select-search .select-search__option, #main .select-search .select-search__not-found{
+      font-size: 16px !important;
+    }
+    #main .datepicker_fecha i {
+      position: absolute;
+      right: 6%;
+      font-size: 24px;
+      margin-top: 2%;
+      color: #3c4245;
+    }
+
+    i.icono_pagina_uno.icon.icon-itaufonts_calendario.disabled_first {
+      color: #B4B4B4 !important;
+    }
+
+    #main .datepicker_fecha i .disabled_first{
+      position: absolute;
+      right: 12%;
+      font-size: 24px;
+      margin-top: 9px;
+      color: #3c4245;
+    }
+
+    .col-custom-1.col-2 {
+      max-width: 11%;
+    }
+
+    a.link-primary {
+      color: #007AB7;
+    }
+
+    #main .input-group-text{
+      background-color: #FAFBFC !important;
+    }
+
+    input.form-control:disabled {
+      background-color: transparent;
+    }
+
+    #main .select-search .select-search__input {
+      color: #43484c !important;    
+    }
+
+    input.datePickerData.w-100.datePickerData {
+      font-family: 'ItauText';
+      color: #4A4F53 !important;
+    }
+
+    li.select-search__row:hover {
+        background-color:rgba(204, 141, 47, 0.1);
+    }
+
+    p.text_formato {
+      font-family: Arial !important;
+      font-size: 13px;
+      color: #5A6978;
+    }
+
+    li.select-search__row {
+      font-family: 'ItauText';
+      color: #43484C;
+      font-size: 16px;
+    }
+
+    button.select-search__option.is-selected {
+      font-family: 'ItauText';
+      color: #43484C;
+      font-size: 16px;
+    }
+
+    button.select-search__option.is-selected:hover {
+      //background-color: green;
+    }
+
+
+    #main .form-control.form-control::placeholder {
+      font-size: 16px !important;
+      color: #BFBFBF !important;
+      opacity: 1;
+      font-style: oblique;
+      font-family: Arial;
+    }
+
+    input.datePickerData.w-100.datePickerData::placeholder {
+      font-family: Arial !important;
+      font-size: 14px !important;
+      color: #BFBFBF!important;
+      font-style: oblique;
+      opacity: 1 !important;
+    }
+
+    div#placeholder ::-webkit-input-placeholder {
+      color: #BFBFBF;
+      opacity: 1 !important;
+  }
+
+    input.datePickerData.w-100.datePickerData.react-datepicker-ignore-onclickoutside::placeholder {
+      font-family: Arial !important;
+      font-size: 14px !important;
+      color: #BFBFBF!important;
+      opacity: 1;
+    }
+
+    input.select-search__input::placeholder {
+      font-family: Arial !important;
+      font-size: 6px !important;
+      color: #BFBFBF!important;
+      opacity: 1;
+    }
+
+    input.form-control::placeholder{
+      font-family: Arial !important;
+      font-size: 16px !important;
+      color: #BFBFBF!important;
+      opacity: 1;
+    }
+    #main .form_car_data .row-inner .form_car_data_row .form_car_data_column .form-control{
+      font-family: Arial !important;
+      font-size: 16px !important;
+    }
+    button.button_footer.btn.btn-primary {
+      min-width: 148px !important;
+      max-width: 148px !important;
+      color: #3184C3 !important;
+    }
+
+    input.select-search__input::placeholder {
+      font-family: Arial !important;
+      opacity: 1 !important;
+      font-size: 16px !important;
+    }
+    i.icon.icon-itaufonts_calendario.disabled {
+      color: #B4B4B4!important;
+    }
+
+    i.icon.icon-itaufonts_calendario.disabled-fist {
+      color: #B4B4B4!important;
+    }
+    .dataClientBirthdate {
+      position: relative;
+    }
+
+    input.datePickerData:disabled {
+      background: bottom;
+    }
+
+    #main .select-search .select-search__option.is-selected {
+      background: transparent !important;
+      color: #546576 !important;
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .info-upload{
+      background-color: #FAFBFC !important;
+      font-size: 16px;
+      border: #DFE6EE;
+      text-overflow: ellipsis;
+    }
+
+    input.form-control.form-control::placeholder {
+      font-size: 15px !important;
+    }
+    input.datePickerData.w-100.datePickerData.react-datepicker-ignore-onclickoutside::placeholder{
+      font-style: oblique;
+    }
+
+    input.datePickerData.w-100.datePickerData.prefix-movil::placeholder{
+      font-style: oblique;
+    }
+    input.form-control.input-group-text.input-group-text.prefix-movil {
+      element.style {
+        color: #B4B4B4;
+        font-size: 15px !important;
+    }
+    }
+    #main {
+      font-size: 16px !important;
+      font-family: 'ItauText' !important;
+
+      .form_car_data .row-inner .form_car_data_row .form_car_data_column .form-control {
+        padding-top: 3px;
+        padding-bottom: 0px;
+        height: 37px;
+        font-family: 'ItauText' !important
+      }
+      .select-search {
+        position: relative;
+        font-family: "ItauText";
+        box-sizing: border-box;
+        font-family: 'ItauText' !important;
+        color: #43484C !important;
+      }
+
+      .inspection_title {
+        margin-bottom: 15px;
+      }
+    
+      input[type="checkbox"],
+      input[type="radio"] {
+        background-color: #EC7000;
+        //margin-top: 2px;
+      }
+      p.form-control.no-border {
+        border: 0;
+        
+      }
+    
+    
+      .form_car_data {
+        font-family: ItauText;
+        background-color: $white;
+        margin-bottom: 20px;
+    
+        .row-inner{
+          padding: 14px;
+    
+          .date{
+            //display: flex;
+            flex-wrap: wrap;
+    
+            label{
+              padding: 0px;
+            }
+    
+            .datePickerData{
+              padding-left: 14px;
+              border: 1px solid $gray-400;
+              height: 40px;
+              width: 89%;
+              color: $gray-700;
+              margin-right: -8px;
+            }
+    
+            .icon{
+              position: absolute;
+              right: 58%;
+              font-size: 24px;
+              margin-top: 56px;
+              color: $gray-800;
+            }
+    
+            .react-datepicker-popper[data-placement^="bottom"]{
+              z-index: 1000;
+            }
+          }
+    
+          h6{
+            color: $gray-700;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+          }
+    
+    
+          .form_car_data_column_title{
+            font-family: Arial;
+            font-size: 16px;
+            color: $amber;
+            font-weight: 700;
+            text-transform: lowercase;
+            &:first-letter {
+              text-transform: uppercase;
+            }
+          }
+          .textPicker{
+            display: block;
+          }
+    
+          .form_car_data_title{
+    
+            padding-top: 15px;
+            padding-left: 49px;
+    
+            .num_data{
+              color: $white;
+              font-weight: bold;
+              font-family: Arial;
+              background-color: $orange;
+              border-radius: 50%;
+              padding: 6px 11px;
+              margin: 0 11px 0 -34px;
+            }
+    
+            .title_data{
+              font-weight: bold;
+              color: $gray-700;
+              font-size: 18px;
+              margin-left: 7px;
+              margin-top: 10px;
+            }
+    
+          }
+          .box_info{
+            border-radius: 8px;
+            background-color: $gray-250;
+            padding: 10px 25px;
+            margin: 18px 57px 0px 51px;
+            font-family: "ItauText";
+            p{
+              color: $blue-sparkly;
+              font-size: 12px;
+              margin: 0px 4px 2px 0px;
+            }
+          }
+    
+    
+          .form_car_data_row{
+            padding: 31px 48px 22px 56px;
+    
+            .form_car_data_column{
+              padding-right: 75px;
+              line-height: 21px;
+              padding-left: 11px;
+    
+              label{
+                font-size: 14px;
+                color: #546576;
+                font-weight: 400;
+                text-transform: lowercase;
+                &:first-letter {
+                  text-transform: uppercase;
+                }
+              }
+
+              .label_2{
+                font-size: 14px;
+                color: $gray-700;
+                //margin-bottom: 3px;
+                text-transform: uppercase;
+                &:first-letter {
+                  text-transform: uppercase;
+                }
+              }
+
+              .label_3{
+                font-size: 15px;
+                color: #546576;
+                font-weight: 400;
+                text-transform: lowercase;
+                &:first-letter {
+                  text-transform: uppercase;
+                }
+              }
+    
+              .factura{
+    
+                .title_factura{
+                  font-size: 15px;
+                  font-weight: 700;
+                  margin-top: 14px;
+                  color: #5A6978;
+                  font-family: Arial;
+                }
+    
+                p{
+                  font-size: 14px;
+                  color: #43484C;
+                  font-family: 'ItauText' ;
+                  text-align: justify;
+                  word-spacing: -.2em ;
+                }
+    
+                input.form-control-file {
+                  background-color: $white;
+                  color: $gray-700;
+                  border-color: $gray-700;
+                  border-radius: 3px;
+                  padding: 6px 21px 6px 21px;
+                  font-size: 12px;
+                }
+    
+                .button_adjuntar{
+                  background-color: $white;
+                  color: $gray-700;
+                  border-color: $gray-700;
+                  border-radius: 3px;
+                  padding: 6px 21px 6px 21px;
+                  font-size: 12px;
+                  max-width: 100px;
+                }
+    
+                .text_formato{
+                  font-size: 13px;
+                  display: block;
+                  font-style: oblique;
+                  padding-top: 8px;
+                  color: $gray-700;
+                  font-weight: 400;
+                  font-family: Arial;
+                }
+              }
+    
+              .celular{
+                padding-left: 2px;
+              }
+    
+              .form-control{
+                padding-top: 3px;
+                padding-bottom: 0px;
+                height: 37px;
+                font-size: 16px;
+                color: #43484C;
+              }
+            }
+          }
+    
+          .inputs_email{
+            font-size: 12px;
+            padding: 0 57px 30px 54px;
+            color: $gray-700;
+          }
+    
+          .text_footer{
+            font-size: 12px;
+            text-align: justify;
+            padding: 2px 57px 10px 54px;
+            color: $gray-700;
+          }
+    
+          .form_car_data_footer{
+            padding: 0px 50px 11px 50px;
+            text-align: right;
+    
+            .button_footer{
+              border-color: $gray-300;
+              background-color: $white;
+              color: $blue-sparkly;
+              margin: 7px;
+              width: 148px;
+              height: 40px;
+              text-align: center;
+              font-family: Arial;
+            }
+            .button_next {
+              border: 1px solid $amber;
+              color: $amber;
+              background-color: white;
+              border-radius: 12px;
+              width: 148px;
+              height: 40px;
+              font-size: 14px;
+            }
+            .button_next:hover:enabled{
+              background-color: $amber;
+              color: white;
+            }
+            .button_footer_next {
+              border-color: $gray-300;
+              background-color: $white;
+              color: $gray-500;
+              margin: 7px;
+              min-width: 148px;
+              max-width: 148px;
+              width: 148px !important;
+              text-align: center;
+              font-family: Arial;
+            }
+          }
+          i.icon.icon-itaufonts_calendario {
+            position: absolute;
+            right: 37%;
+            font-size: 1.5rem;
+            top: -28%;
+          }
+
+          i.icon.icon-itaufonts_calendario.icono2 {
+            position: absolute;
+            right: 25% !important;
+            font-size: 1.5rem;
+            top: -30% !important;
+        }
+        }
+      }
+    }

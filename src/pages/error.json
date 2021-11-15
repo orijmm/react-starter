@@ -1,0 +1,18 @@
+{
+    "page": {
+        "name": "error",
+        "route": "/error",
+        "components": [
+            {
+                "name": "box_error",
+                "properties": {
+                    "icon_error": "exclamacao",
+                    "title_error": "<h6>Lo sentimos, tuvimos un problema</h6>",
+                    "title_class": "text-danger",
+                    "content_error": "Estamos trabajando para solucionarlo.<br/>Por favor, reintenta en unos minutos." 
+                },
+                "custom_classes": {}
+            }
+        ]
+    }
+}

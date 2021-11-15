@@ -1,0 +1,188 @@
+/*
+	Tema: Itaú
+	Componente: FormPayment
+ */
+
+@import "../variables";
+
+/* Variables de estilo Tema Itaú */
+
+#main {
+  .form_payment {
+    padding-top: 33px;
+    padding-left: 49px;
+    margin-bottom: 18px;
+    background-color: $white;
+
+    .form_payment_title {
+      .icon_data {
+        background-color: $amber;
+        border-radius: 100%;
+        width: 32px;
+        height: 32px;
+        margin-right: 7px;
+        margin-left: -12px;
+      }
+      .num_data {
+        position: absolute;
+        margin-top: 6px;
+        color: $white;
+        font-weight: bold;
+        font-family: Arial;
+      }
+      .title {
+        font-weight: bold;
+        color: $gray-700;
+        font-size: 18px;
+        margin-left: 7px;
+        margin-top: 10px;
+      }
+      .sub_title {
+        font-size: 16px;
+        color: $gray-600;
+        font-weight: 400;
+        margin-left: 19px;
+      }
+      .message {
+        padding: 19px;
+        margin: 13px 51% 19px 19px;
+        border-color: $blue-sparkly;
+        border-left-width: 7px;
+        border-radius: 0px;
+        .title_mesage {
+          font-size: 14px;
+          color: $color-text;
+          margin-top: 4px;
+        }
+        span {
+          font-size: 22px;
+          margin: 0px 12px 3px 17px;
+          color: $black;
+        }
+      }
+    }
+    .form_payment_form {
+      margin-left: 8px;
+   
+      label {
+        margin-top: 4px;
+        font-family: "ItauText";
+        
+      }
+
+      .title-method-payment {
+        margin-left: 13px;
+        margin-bottom: -10px;
+        margin-top: 20px;
+        font-size: 16px;
+        color: #546576;
+      }
+
+      .form_payment_column {
+        .title-label {
+          color: $gray-700;
+          font-size: 14px;
+          font-weight: 400;
+          margin-top: 20px;
+          margin-bottom: 0px;
+          line-height: 10px;
+          font-family: 'ItauText';
+          text-transform: lowercase;
+          font-family:'ItauText';
+          &:first-letter {
+            text-transform: uppercase;
+          }
+        }
+        .title-numero-tarjeta {
+          color: $gray-700;
+          font-size: 14px;
+          font-weight: 400;
+          margin-top: 30px;
+          margin-bottom: 0px;
+          line-height: 10px;
+          font-family:'ItauText';
+          text-transform: lowercase;
+          &:first-letter {
+            text-transform: uppercase;
+          }
+        }
+        .title-fecha-vencimiento {
+          color: $gray-700;
+          font-size: 14px;
+          font-weight: 400;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          line-height: 10px;
+          text-transform: lowercase;
+          font-family:'ItauText';
+          &:first-letter {
+            text-transform: uppercase;
+          }
+        }
+        .errorMsje {
+          margin-left: 12px;
+      }
+        .client_name {
+          // text-transform: uppercase;
+          color: $gray-700;
+          font-family:'ItauText'
+                }
+      }
+    }
+    .form_payment_buttons {
+      padding: 0px 50px 30px 50px;
+      text-align: right;
+
+      .button_footer {
+        border-color: $gray-300;
+        background-color: $white;
+        color: $blue-sparkly;
+        margin: 7px;
+        min-width: 22%;
+        text-align: center;
+        font-family: Arial;
+      }
+
+      .button_footer_next {
+        border-color: $gray-300;
+        background-color: $white;
+        color: $gray-500;
+        margin: 7px;
+        width: 148px;
+        height: 40px;
+        text-align: center;
+      }
+      .button_next {
+        border: 1px solid $amber;
+        color: $amber;
+        background-color: white;
+        width: 148px;
+        height: 40px;
+        font-size: 14px;
+      }
+      .button_next:hover:enabled {
+        background-color: $amber;
+        color: white;
+      }
+    }
+    .row_form_payment_radio {
+      .radio {
+        margin: 13px 30px 0px 30px;
+        color: $gray-700;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    .num-tarjeta {
+      .form-control-num-tarjeta {
+        width: 43px;
+        margin: 4px 10px 4px 25px;
+        box-sizing: border-box;
+        border: 0px;
+        color: $gray-700;
+        font-style: italic;
+        -webkit-text-security: disc;
+      }
+    }
+  }
+}

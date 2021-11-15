@@ -1,0 +1,105 @@
+/*
+	Tema: Itaú
+	Componente: BoxImage
+*/
+
+@import "@sass/variables";
+@import "@sass/fonts";
+
+/* Variables de estilo Tema Itaú */
+
+#main {
+
+    .box_image {
+        
+        background: $white;
+        margin-bottom: 20px;
+        border: 1px solid $gray-200;
+
+        .box_image_content{
+            display: block;
+            padding: 21px 40px 21px 35px;
+
+            .box_image_content_title {
+                color: $gray-700;
+                h5{
+                    font-size: 18px;
+                }
+
+            }
+
+            .box_image_content_text {
+                text-align: left;
+                min-height: 80px;
+                
+                h4 {
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: $color-text;
+                }
+                p {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 1.154;
+                    color: $gray-600;
+                }
+                span {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+            .box_image_content_footer {
+                text-align: left;
+
+                .btn {
+                    background-color: $orange ;
+                    color: $white;
+                    width: 100%;
+                    max-width: 100%;
+                    font-family: Arial;
+                    padding-bottom: 1px;
+                     padding-top: 1px;
+                }
+                a{
+                    margin-right: 20px;
+                    cursor: pointer;
+                    color: $blue-sparkly;
+                    text-decoration: underline;
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+            }  
+        }
+
+        .box_image_img{
+            
+            img{
+                max-width: 139%;
+                margin-bottom: 0px;
+                display: block;
+                height: 100%;
+
+            }
+            .imgg{
+                max-width: 130%;
+                margin-bottom: 0px;
+                display: block;
+                height: 100%;
+            }
+
+            &:not(.order-first){
+                img{
+                    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 17% 100%);
+                    clip-path: polygon(0 0, 100% 0%, 100% 100%, 17% 100%);
+                }
+            }
+
+            &:not(.order-last){
+                img{
+                    -webkit-clip-path: polygon(0 0, 78% 0%, 100% 100%, 0% 100%);
+                    clip-path: polygon(0 0, 78% 0%, 100% 100%, 0% 100%);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+/*
+	Tema: Itaú
+	Componente: BoxRightWithrawal
+ */
+
+@import "../variables";
+
+/* Variables de estilo Tema Itaú */
+
+#main {
+  .box_right_withdrawal {
+    border-radius: 15px;
+    margin: 0px 35px 21px 0px;
+
+    @each $name, $value in $colors {
+      .#{$name}.content_box_right_withdrawal {
+        border-top: 4px solid $value !important;
+        border-radius: 20px;
+        padding: 24px 38px 0px 33px;
+      }
+    }
+    .Column_content {
+      border-right: 1px solid $color-border;
+      margin-bottom: 14px;
+      .title {
+        h3 {
+          color: #747F90;
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+      .content {
+        p {
+          color: $color-text;
+          text-align: left;
+          font-size: 12px;
+          font-weight: 400;
+        }
+      }
+    }
+    .Column_content_contact {
+      padding-left: 25px;
+      .title_contact {
+        padding-left: 3px;
+        h3 {
+          
+          color: $color-text;
+          font-size: 16px;
+          font-weight: bold;
+          text-align: left;
+          margin-top: 5px;
+        }
+      }
+      .sub_title_contact {
+        justify-content: center;
+        text-align: left;
+        
+        h6 {
+          color: $color-text;
+          font-size: 14px;
+          font-weight: 400;
+          margin-top: 16px;
+          margin-left: 3px;
+        }
+      }
+      .num_contact {
+        justify-content: center;
+        p {
+          color: $blue-sparkly;
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+      .icon_contact {
+        justify-content: center;
+        color: $blue-sparkly;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 21px;
+        margin-bottom: 10px;
+
+        span {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}

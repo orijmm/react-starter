@@ -1,0 +1,269 @@
+
+/*
+    Tema: Itaú
+    Componente: Insurance
+ */
+
+ @import "@sass/variables";
+ @import "@sass/fonts";
+
+ /* Variables de estilo Tema Itaú */
+
+ #main {
+     .form_insurance{
+        .sin_propuesta
+        {
+            border: 2px black solid;
+            margin:auto;
+            text-align: justify;
+            font-size: 14px;
+            color:#43484C;
+            padding: 10px 10px 10px 10px;
+        }
+       
+        .insurance_title
+        {
+            font-weight: bold;
+            font-size:13px;
+            color: #5A6978;
+            
+        }
+      .alert {
+               position: relative;
+    padding:9px 9px;
+    margin-bottom: -1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    
+    width: 100%;
+    
+          }
+          
+          .box_info{
+            border-radius: 8px;
+            background-color: $gray-250;
+            padding: 10px 25px;
+           
+    
+            p{
+              color: $blue-sparkly;
+              font-size: 12px;
+              margin: 0px 4px 2px 0px;
+            }
+          }
+        .insurance_title_filter
+        {
+            font-weight: bold;
+            font-size:16px;
+            color: $amber;
+            font-family: Arial;
+        
+        }
+         .box_filter{
+            
+      
+         
+            
+            .div-container{
+                color: $gray-700;
+                font-family: Arial;
+                padding-top: 15px;
+                width: 200px;
+
+                label{
+                    font-size: 14px;
+                    margin: 0 0 6px;
+                }
+               
+            }
+            .insurance_boxes_title{
+                font-size: 14px;
+                text-align: center;
+                color: #5A6978;
+                font-family: ItauText;
+                
+            }
+            
+             span {
+                color: $blue-sparkly;
+                margin-left: 7px;    
+              }
+              
+          
+                   
+             .check-style{
+                outline: 1px solid red;
+             }
+             .form-label{
+                 margin-bottom: 5px;
+             }
+             .accordion{
+                 
+                 background: transparent;
+                 .btn{
+                    padding: 0px;
+                    width: auto;
+                 }
+                 
+                 .select-filter{
+                    min-width: 168px; 
+                    padding: 8px 10px 8px 15px;
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    border: 1px solid $gray-700;
+
+                    &.orange{
+                        color: $orange;
+                        background-color: $white;
+                        border: 1px solid $orange;
+                    }
+                    i{
+                        position: absolute;
+                        right: 13px;
+                        top: 8px;
+
+                    }
+                    p{
+                        padding: 8px 10px 8px 15px;
+                        width: 100%;
+                        margin: 0px;
+                        text-align: left;
+                        padding: 0px;
+                        font-size: 14px;
+                    } 
+                }
+             }
+         }
+         .box_order{
+            .insurance_boxes_title{
+                font-size: 13px;
+                text-align: center;
+                color: $gray-600;
+                
+            }
+            .select-order{
+                    max-width: 170px; 
+                    color: $gray-700;
+                    background-color: $white;
+                    margin-left: 3px;
+                    border: 1px solid $gray-700;
+                    
+                    option{
+                        text-align: center;
+                    }
+                    &:before {
+                        width: 7px;
+                        height: 7px;
+                        border-right: 1px solid $gray-700;
+                        border-bottom: 1px solid $gray-700;
+                        position: absolute;
+                        display: block;
+                        top: 32%;
+                        right: 10%;
+                        content: "";
+                        z-index: 100;
+                        transform: rotate(45deg);
+                    }
+                    p{
+                        
+                        width: 100%;
+                        margin: 0px;
+                        text-align: left;
+                        padding: 10px;
+                        size: 14px;
+                    }
+            }
+            
+            .form-label{
+                margin-bottom: 5px;
+            }
+                .form-control{
+                   font-size: 14px;
+                   padding: 8px 10px 8px 15px;
+                   
+                   p{
+                       width: 100%;
+                       margin: 0px;
+                       text-align: left;
+                       padding: 10px;
+                       size: 14px;
+                   }
+               }
+         }
+        
+        .box_insurance{
+            padding: 30px 12px;
+            line-height: 24px;
+            background-color: $white;
+    
+            .insurance_boxes_title{
+                font-size: 12px;
+                text-align: center;
+                color: #5A6978;
+                font-family: ItauText;
+            }
+            .insurance_boxes_primaclp{
+                color: $orange;
+                font-size: 21px;
+                text-align: center;
+                font-weight: bold;
+                span{
+                    color: $gray-600;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+            .insurance_boxes_primauf{
+                font-size: 13px;
+                text-align: center;
+                color: $gray-600;
+            }
+            .insurance_boxes_logo{
+                text-align: center;
+                min-height: 70px;
+                img{
+                    width: 80px;
+                    padding: 10px 0px;
+                }
+                
+            }
+           
+            .insurance_boxes_plans_description{
+                font-size: 13px;
+                text-align: left;
+                color: $gray-700;
+                font-weight: bold;
+            }
+            .insurance_boxes_link{
+                color: $blue-sparkly;
+                text-decoration: underline;
+                text-align: center;
+                font-size: 12px;
+                line-height: 44px;
+                font-weight: 400;
+                margin-left: 16px;
+                cursor: pointer;
+                font-family: Arial;
+            
+            }
+            .insurance_boxes_footer{
+                display: block;
+                text-align: center;
+                max-width: 90%;
+                
+                .insurance_boxes_button{
+                    background-color: $white;
+                    color: $orange;
+                    width: 100%;
+                    max-width: 100%;
+                    font-family: Arial;
+                    padding-bottom: 1px;
+                     padding-top: 1px;
+                }
+            }
+        }
+     }
+ }
+     
+

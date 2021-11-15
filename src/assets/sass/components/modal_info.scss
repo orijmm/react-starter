@@ -1,0 +1,135 @@
+/*
+    Tema: Itaú
+    Componente: Modal
+ */
+
+ @import "@sass/variables";
+ @import "@sass/fonts";
+
+ /* Variables de estilo Tema Itaú */
+  
+.modal{  
+    
+        .modal_info_title{
+            font-size: 18px;
+            color: #EC7000;
+            font-weight: bold;
+            padding-left: 31px;
+            padding-top: 10px;
+            margin-bottom: 0px;
+        }
+        .modal_info_title_cancelacion{
+            font-size: 18px;
+            color: #EC7000;
+            font-weight: bold;
+            text-align: left;
+            padding-top: 10px;
+            margin-bottom: 0px;
+        }
+        .icon{
+            color: #5A6978;
+            font-size: 60px;
+        }
+        .content_eliminacion{
+            color: $gray-800;
+            font-size: 18px;
+            padding-top: 10px;
+            font-family: Arial;
+            h4{
+                margin: 0px 25%;
+                font-size: 18px;
+            }
+           p{
+font-size: 14px;
+margin: 5px 20%;
+           }
+
+            span{
+                font-weight: bold;
+            }
+
+        }
+        .btn_volver{  border-color: $gray-300;
+            background-color: $white;
+            color: $blue-sparkly;
+           
+            text-align: center;}
+            .btn_cancelar{  border-color: $gray-300;
+                background-color: #EC7000;
+                color: $white;
+              
+                text-align: center;}
+        .modal_info_content{
+            h5{
+                font-family:"Arial";
+                font-size: 16px;
+                font-weight: bold;
+                color: $gray-700;
+                padding-left: 30px;
+            }
+            .text-modal{
+                font-size: 14px;
+                color: $gray-800;
+                font-family:"Arial";
+            }
+            .circle{
+                list-style-type: circle;
+                font-size: 14px;
+                font-weight: 400;
+                color: #5A6978;
+                font-family:"Arial";
+                
+            }
+            h6{
+                font-family:"Arial";
+                font-size: 16px;
+                color: $gray-700;
+                padding-left: 25px;
+                line-height: 0px;
+            }
+            p{
+                font-family:"Arial";
+                font-size: 13px;
+                padding-left: 16px;
+                padding-right: 16px;
+                margin: 14px;
+                line-height: 16px;
+                b{
+                    color: $gray-800;
+                    font-size: 13px;
+                    font-weight: 800;
+                }
+            
+            }
+        }
+        .modal_info_footer{
+            color:$white;
+            font-size: 14px;
+            width: 20%;
+            background: $orange;
+            border-radius: 3px;
+            margin-right: 27px;
+            padding: 9px;
+            font-family: "Arial";
+            font-weight: 400;
+            
+        }
+        .modal_info_footer_cancelar{
+            color:#FAFBFC;
+            font-size: 14px;
+            width: 20%;
+            background: $orange;
+            border-radius: 3px;
+            margin-right: 27px;
+            padding: 9px;
+            font-family: "Arial";
+            font-weight: 400;
+        
+            
+        }
+        
+        
+    
+}
+    
+     

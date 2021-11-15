@@ -1,0 +1,56 @@
+/*
+	Tema: Itaú
+	Componente: car_detail
+*/
+@import "@sass/variables";
+/* Variables de estilo Tema Itaú */
+#main {
+    .box_car_detail{
+        margin-bottom: 20px;
+        
+        .box_car_detail_container{
+            background-color: $white;
+            border: 1px solid $color-border;
+            a{    font-size: 13px;
+                font-family: Arial;
+                color: #007AB7;
+                text-decoration: underline;
+                cursor: pointer;
+                padding-top:1px;
+            }
+            .car_title{
+                color: $orange;
+                margin-bottom: 16px;
+                font-size: 17px;
+                font-weight: bold;
+            }
+
+            .title_text{
+                margin-bottom: 5px;
+                text-align: left;
+                font-size: 14px;
+                color: $gray-700;
+                font-weight: 400;
+                
+            }
+            .content_text{
+                text-align: left;
+                margin-bottom: 5px;
+                font-size: 18px;
+                color: $gray-700;
+                font-weight: bold;
+            }
+            .content_img{
+                margin: auto;
+                width: 100%;
+                max-width: 155px;
+            }
+            .car_detail_link{
+                margin: auto;
+                color:$blue-sparkly;
+                text-decoration: underline;
+                font-size: 14px;
+            }
+        }
+    } 
+}

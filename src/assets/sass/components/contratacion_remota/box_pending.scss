@@ -1,0 +1,57 @@
+/*
+	Tema: Itaú
+	Componente: BoxError
+*/
+
+@import "@sass/variables";
+@import "@sass/fonts";
+/* Variables de estilo Tema Itaú */
+
+#main {
+    .box_pending{
+        font-family: $font-family-base;
+        margin-bottom: 20px;
+        border: 1px solid $gray-200;
+        background-color: $white;
+
+        .icon{
+            font-size: 62px;
+        }
+
+        .title_pending{
+            padding-top: 15px;
+
+            h6{
+                position: relative;
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .content_pending{
+            color: $gray-800;
+            font-size: 13px;
+            padding-top: 10px;
+
+            span{
+                font-weight: bold;
+            }
+
+        }
+        .box_pending_button{
+            padding-bottom: 10px;
+            min-height: 30px;
+            
+            .btn {
+                background-color: $white;
+                border-color: $gray-200;
+                color: $blue-sparkly;
+                font-size: 15px;
+            }
+        }
+        
+        .image-full {
+            width: 100%;
+            cursor: pointer;
+        }
+    }
+}

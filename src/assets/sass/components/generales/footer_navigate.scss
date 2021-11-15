@@ -1,0 +1,40 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+
+#main {
+  .page_footer_navigate {
+    margin-top: 30px;
+    margin-right: 33px;
+    .button_footer {
+      border-color: $color-border;
+      background-color: $white;
+      color: #007AB7 !important;
+      margin: 7px;
+      //width: 19%;
+      text-align: center;
+      right: 0;
+      font-family: Arial;
+    }
+    .button_footer_disable {
+      border-color: rgba(0, 0, 0, 0.5);
+      background-color: $white;
+      color: rgba(0, 0, 0, 0.5);
+      cursor: default;
+      width: 148px;
+      height: 40px;
+      opacity: 0.5;
+      margin: 7px;
+      text-align: center;
+    }
+    .button_footer_next {
+      border-color: $gray-300;
+      background-color: $amber !important;
+      color: $white;
+      margin: 7px;
+      width: 148px;
+      height: 40px;
+      text-align: center; 
+      opacity: 0.65;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+
+#main {
+    
+    .box_carousel{
+        
+        font-family: Arial;
+        margin: 20px 0;
+        
+        .title_carousel{
+            font-family: 'ItauText';
+            font-size: 22px;
+            text-align: center;
+            color: $gray-700;
+        }
+        .subtitle_carousel{
+            font-family: Arial;
+            h6{
+                font-size: 16px;
+                text-align: center;
+                color: $gray-700;
+                font-weight: 400;
+            }
+        }
+        .carousel{
+
+            &:hover {
+                .carousel-control-next-icon{
+                    opacity: 1;
+                }
+                .carousel-control-prev-icon{
+                    opacity: 1;
+                }
+            }
+            .carousel-control-next-icon{
+                background-color: gray;
+                background-size: 15px;
+                clip-path: circle(50% at 50% 50%);
+                position: absolute;
+                padding: 14px;
+                left: 114px;
+                opacity: 0.3;
+            }
+            .carousel-control-prev-icon{
+                background-color: gray;
+                background-size: 15px;
+                clip-path: circle(50% at 50% 50%);
+                position: absolute;
+                padding: 14px;
+                right: 114px;
+                opacity: 0.3;
+            }
+            .box_image_content_title{
+                text-align: left;
+            }
+            .box_image{
+
+                h6{
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-align: left;    
+                }
+
+                .btn{
+                    background-color: $white;
+                    color: $orange;
+                    transition: all ease-in-out 0.3s;
+                    margin-top: -15px;
+
+                    &:hover{
+                        background-color: $white;
+                        color: $orange;
+                    }
+                }
+            }
+            .carousel-indicators li{
+                box-sizing: none;
+            }
+        }
+    }
+}

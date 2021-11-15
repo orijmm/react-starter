@@ -1,0 +1,67 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+
+#main {
+
+    .title_form{
+        color: $orange;
+        font-size: 16px;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    .sub_title_form{
+        color: #546576;
+        font-size: 14px;
+        font-family: 'ItauText';
+        font-weight: 400;
+        margin: 3% 0;
+    }
+    .text_form{
+        color: #546576;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'ItauText';
+        margin-top: 2%;
+    }
+    .form_check_text{
+      font-size: 14px;
+      color: $gray-700;
+      margin-left: 10px;
+      font-family: 'ItauText';
+  }
+    /* .list-orange{
+        li:nth-child(odd){
+            background-color:#FAFBFC;
+        }
+    } */
+
+    /* tabla-formulario */
+    table.form_table {
+        width: 100%;
+        text-align: left;
+      }
+      table.form_table td, table.form_table th {
+        padding: 0px 0px;
+      }
+      table.form_table tbody td {
+        font-size: 14px;
+      }
+      table.form_table tr:nth-child(odd) {
+        background: #FAFBFC;
+      }
+      table.form_table tfoot td {
+        font-size: 14px;
+      }
+      table.form_table tfoot .links {
+        text-align: right;
+      }
+      table.form_table tfoot .links a{
+        display: inline-block;
+        background: #1C6EA4;
+        color: #FFFFFF;
+        padding: 2px 8px;
+        border-radius: 5px;
+      }
+	
+}

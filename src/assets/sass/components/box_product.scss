@@ -1,0 +1,49 @@
+/*
+	Tema: Itaú
+	Componente: BoxProduct
+ */
+
+@import "@sass/variables";
+@import "@sass/fonts";
+
+/* Variables de estilo Tema Itaú */
+
+.box_product {
+    font-family: $font-family-base;
+    
+    .box_product_title {
+        font-weight: normal;
+        display: block;
+        min-height: 28px;
+        margin-inline: -2px;
+        margin-bottom: 3px;
+        margin-top: 0px;
+    }
+    .box_product_content {
+        text-align: left;
+        min-height: 80px;
+
+        h6 {
+            font-size: 16px;
+            color: $color-text;
+            min-height: 36px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 1.154;
+            color: $gray-600;
+        }
+        
+        span {
+            font-size: 14px;
+        }
+    }
+    .box_product_footer {
+        min-height: 30px;
+        .btn {
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+
+#main{
+
+    h2{
+        font-size: 22px;
+        font-family: 'ItauText';
+        color: $gray-700; 
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 4%;
+    }
+    .subtitle{
+        font-size: 16px;
+        font-family: Arial;
+        color: $gray-700; 
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+}

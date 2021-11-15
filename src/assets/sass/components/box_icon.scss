@@ -1,0 +1,101 @@
+/*
+	Tema: Itaú
+	Componente: BoxIcon
+ */
+
+@import "@sass/variables";
+
+/* Variables de estilo Tema Itaú */
+
+#main {
+    .box_icon{
+        padding: 10px 18px 0px 21px;
+        background: $white;
+
+        .box_icon_title {
+            position: relative;
+            color: $orange;
+            text-align: left;
+            
+            i {
+                position: absolute;
+                top: 21px;
+                left: 0px;
+                font-size: 40px;
+            }
+
+            h4 {
+                font-size: 18px;
+                padding: 30px 10px 10px 46px;
+                color: $gray-700;
+            }
+        }
+
+        .box_icon_content{
+            text-align: left;
+            min-height: 48px;
+            padding-right: 36px;
+            font-size: 13px;
+            p {
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 1.154;
+                color: $gray-600;
+            }
+        }
+
+        .box_icon_footer{
+            text-align: right;
+            padding-bottom: 20px;
+            min-height:58px;
+            
+            .btn {
+                font-size: 13px;
+                border-radius: 13px;
+            }
+        }
+
+        &.centered{
+            padding: 10px 11px;
+            margin: -7px;
+            padding-top: 10px;
+            .box_icon_title {
+                
+                i {
+                    position: absolute;
+                    top: 0;
+                    left: 40%;
+                }
+
+                h4 {
+                    line-height: 20px;
+                    font-size: 14px;
+                    text-align: center;
+                    padding: 47px 0 0;
+                    font-weight: bold;
+                    font-family: 'ItauText';
+                    color: $color-text;
+                }
+            }
+
+            .box_icon_content{
+                text-align: center;
+                padding: 0;
+                color: $gray-600;
+                font-size: 12px;
+            }
+        }
+        &.box_home{ 
+            height: 156px; 
+        }
+        &.box_heigth_home{
+            height: 181px;
+        }
+        &.margin{
+            margin-top: 2px;
+            margin-bottom: 2px;
+        
+        }
+
+    }
+}

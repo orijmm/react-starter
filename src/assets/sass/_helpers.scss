@@ -1,0 +1,219 @@
+/*
+	Tema: Itaú
+	Archivo de clases auxiliares
+ */
+#main {
+    .shadow-1 {
+        //box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+        //border: 1px solid $gray-300;
+        border: solid #DFE6EE 1px;
+    }
+
+    .border-round {
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .cuadrado {
+        border-radius: 0px;
+    }
+
+    .circulo {
+        border-radius: 40px;
+    }
+
+    /* Badge */
+    .badge-pill {
+        padding: 0.5em 0.6em 0.25em;
+        border-radius: 10rem;
+    }
+
+    .badge-blue {
+        font-family: $font-family-base;
+        vertical-align: initial;
+        font-weight: normal;
+        background: $color-badge;
+        color: $white;
+        font-size: 12.5px;
+    }
+
+    /* List */
+    .list-orange{
+        list-style: none;
+        padding-left: 10px;
+
+        li{
+            margin-bottom: 10px;
+            font-size: 14px;
+            position: relative;
+        }
+
+        li:before{
+            content: "";
+            display: block;
+            width: 4px;
+            height: 4px;
+            background: $orange;
+            position: absolute;
+            top: 6px;
+            left: -10px;
+            border-radius: 50%;
+        }
+        &.check{
+            padding-left: 15px;
+            li{
+                font-size: 13px;
+                text-align: left;
+                color:  #5A6978;
+                font-family:ItauText;
+                font-weight: lighter;
+                b{
+                    font-family:ItauText;
+                    color:  #5A6978;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+            li:before{
+                content: "✓ ";
+                font-family: "itaufonts_master_24px_v1" !important;
+                speak: none;
+                font-style: normal;
+                font-weight: bold;
+                font-feature-settings: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+                letter-spacing: 0;
+                color: #EC7000;
+                width: auto;
+                height: auto;
+                font-size: 15px;
+                background: transparent;
+                top: 3px;
+                left: -18px;
+                border-radius: unset;
+            }
+            .li:before{
+                content: "✗";
+                font-family: "itaufonts_master_24px_v1" !important;
+                speak: none;
+                font-style: normal;
+                font-weight: bold;
+                font-feature-settings: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+                letter-spacing: 0;
+                color: #EC7000;
+                width: auto;
+                height: auto;
+                font-size: 15px;
+                background: transparent;
+                top: 3px;
+                left: -18px;
+                border-radius: unset;
+            }
+        }
+    }
+
+
+    /* Text */
+    .color-orange {
+        color: $orange !important;
+        font-weight: normal;
+    }
+
+    /* tables */
+    .style1{
+        border: 1px $gray-300 solid;
+        border-radius: 10px;
+        
+        table{
+            border-radius: 10px;
+            overflow: hidden;
+            font-family:  $font-family-base;
+
+            tr{
+                text-align: center;
+
+                &:nth-child(odd){
+                    background-color: $gray-050;
+                }
+
+                td{
+                    &:nth-child(1){
+                        text-align: left;
+                    }
+
+                    font-size: 13px;
+                    padding: 15px !important;
+                    border-left: 1px $gray-300 solid;
+                    color: $gray-700;
+                }
+              
+                th{
+                    border: 1px $gray-300 solid;
+                    background-color: $orange;
+                    text-align: center;
+                    font-weight: bold;
+                    padding: 15px 0px;
+                    color:$white;
+                    font-size: 12px;
+                }
+            }    
+        }
+    }
+    
+    .datepicker_fecha{
+        .datePickerData{
+            padding-left: 10px;
+            border: 1px solid $gray-400;
+            height: 37px;
+            width: 89%;
+            color: $gray-700;
+            margin-right: -8px;
+            padding-top: 5px;
+            &.datePickerData::placeholder{
+                font-size: 16px;
+                color: #BFBFBF;
+                opacity: 1;
+                font-style: oblique;
+            }
+           
+        }
+        
+        span{
+            position: absolute;
+            right: 12%;
+            font-size: 24px;
+            margin-top: 9px;
+            color: #3c4245;
+            
+            &::before{
+            position: absolute;
+            right: 12%;
+            font-size: 24px;
+            margin-top: -50%;
+            }
+        }
+    }
+    .errorMsje {
+        color: #B71C1C !important;
+        font-size: 13px !important; 
+        font-family: Arial;
+        
+    }
+    
+    .num_data.active{
+              color: $white;
+              font-weight: bold;
+              font-family: Arial;
+              background-color: $orange;
+              border-radius: 50%;
+              padding: 6px 11px;
+              margin: 0 11px 0 -34px;
+            }
+    
+    
+}

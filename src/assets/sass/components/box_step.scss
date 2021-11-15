@@ -1,0 +1,107 @@
+/*
+    Tema: Itaú
+    Componente: BoxStep
+*/
+@import "@sass/variables";
+/* Variables de estilo Tema Itaú */
+#main {
+
+    .box_step{
+        border-color: $gray-400;
+        padding: 37px;
+        background-color: $gray-050;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        .btn-right{
+            margin-left: 70px;
+            background: none;
+            color: #007AB7;
+            border: none;
+            padding: 0;
+            font: inherit;
+            cursor: pointer;
+            outline: inherit;
+            margin-top: -6px;
+            font-family: Arial;
+            text-decoration: underline;
+            font-size: 14px;
+            font-weight: 400;
+        }  
+
+        .icon_data{
+            border: solid;
+            border-width: 1px;
+            border-radius: 100%;
+            width: 30px;
+            height: 30px;
+            border-color: $gray-500;
+        }
+        .icon_data_check{
+            background-color:#4cab8a;
+            border: solid;
+            border-width: 0px;
+            border-radius: 100%;
+            width: 30px;
+            height: 30px;
+            border-color: $gray-500;
+        }
+        
+        .check_data{ 
+            position: absolute;
+            color:$white;
+            margin-left: 7px;
+            margin-top: 7px;
+        }
+        
+        .num_data{
+            position: absolute;
+            margin-left: 11px;
+            margin-top: 5px;
+            color:$gray-500;
+            font-weight: bold;
+        }
+        .box_step_title{
+            color: $gray-500; 
+            p{
+                margin: 4px 16px 0px;
+                font-size: 17px;
+            }
+        }
+        .box_step_title_check{
+            color: $gray-700; 
+            p{
+                margin: 4px 16px 0px;
+                font-size: 17px;
+            }
+        }
+        .link_plan{
+            margin-left: 40%;
+            a{
+                color: $blue-sparkly;
+                text-decoration: underline;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: Arial;
+                cursor: pointer;
+            }
+            
+        }
+        //Protección
+        .link_change_plan{
+            margin-left: 25rem;
+            margin-top: 4px;
+            a{
+                color: #005D95;
+                text-decoration: underline;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: Arial;
+                cursor: pointer;
+            }
+            
+        }
+        
+    }
+    
+}

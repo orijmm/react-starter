@@ -1,0 +1,206 @@
+/*
+	Tema: Itaú
+	Componente: FormHiring
+ */
+
+ @import "@sass/variables";
+ @import "@sass/fonts";
+ 
+ /* Variables de estilo Tema Itaú */
+ 
+ #main {
+    .form_hiring{
+
+        margin: 16px 0px;
+        .form_plans_title{
+            padding: 20px 55px;
+            margin-top: 15px;
+            .icon_data{
+                background-color:$orange;
+                border-radius: 100%;
+                width: 32px;
+                height: 32px;
+                margin-right: 7px;
+                margin-left: -16px;   
+            }
+            .num_data{
+                position: absolute;
+                margin-top: 4px;
+                color:$white;
+                font-weight: bold;
+                font-family: 'Arial';
+                font-size: 17px;
+                margin-left: -4px;
+            }
+            h5{
+                font-weight: bold;
+                color: #546576;
+                font-size: 18px !important;
+                margin-top: 8px;
+                font-size: 18px;
+                font-family: 'ItauText';
+                text-transform: lowercase;
+                &:first-letter {
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .form_plans_check{
+            h6{
+                color: $orange;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            label{
+                font-size: 14px;
+                color: #42484C;
+                font-weight: 400;
+                font-family: "ItauText";
+            }
+            p{
+                font-size: 16px;
+                color: #5A6978;
+                font-weight: 400;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                line-height: 20px;
+            }
+            .radio{
+                margin-left: 8%;
+                color: $gray-800;
+                margin-bottom: 13px;
+            }
+            .icon_check{
+                margin-left: 9px;
+                margin-top: 3px;
+                color: $blue-sparkly;
+                font-size: 16px;
+                margin-bottom: 17px;
+            }
+            
+            h4{
+                font-size: 18px;
+                color: $gray-700;
+                font-weight: bold;
+                margin-top: 9px;
+                margin-left: 7px;
+                font-family: "ItauText";
+            }
+            .boxes_plan{
+                padding: 24px 0px;
+                .row_title{
+                    margin-left: 37px;
+                    .icon_data{
+                        background-color:$orange;
+                        border-radius: 100%;
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 7px;
+                        margin-left: -12px;   
+                    }
+                    .num_data{
+                        position: absolute;
+                        margin-top: 3px;
+                        color:$white;
+                        font-weight: bold;
+                        font-family: Arial;
+                        font-size: 17px;
+                    }
+                }
+                
+            }
+            .input_rank{
+                margin-left: 68px;
+                margin-top: 10px;
+                .column_rank{
+                    margin-left: 14%;
+                }
+                .column_radio{
+                    margin-left: 5%;
+                }
+            }
+        }
+        
+        .select-search__value{
+            margin-bottom: 7px;
+        }
+        .question{
+            color: #546576 !important;
+        }
+
+        .form_plans_buttons{
+            text-align: right;
+            padding-right: 10%;
+            margin-bottom: 22px;
+            
+            .button_footer_back{
+                width: 19%;
+                margin: 40px 7px 5px;
+                background-color: $white;
+                color: $blue-sparkly;
+                border-color: $gray-300;
+                padding: 11px;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: Arial;
+                margin-top: 54px;
+                text-transform: lowercase;
+                    &:first-letter {
+                        text-transform: uppercase;
+                    }
+            }
+
+            .button_next{
+                border: 1px solid #fa6400;
+                width: 19%;
+                margin: 40px 7px 5px;
+                background-color: #FA6400;
+                color: $white;
+                border-color: $gray-300;
+                padding: 11px;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: Arial;
+                margin-top: 54px;
+                text-transform: lowercase;
+                    &:first-letter {
+                        text-transform: uppercase;
+                    }
+                    
+            }
+            
+            .button_footer_next{
+                border-color: $gray-300;
+                width: 148px;
+                margin:7px;
+                background-color: $white;
+                color: $gray-500;
+                padding: 11px;
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: 400;
+                margin-top: 54px;
+                text-transform: lowercase;
+                text-align: center;
+                    &:first-letter {
+                        text-transform: uppercase;
+                    }
+            }
+            .btn-white{
+                margin-top: 7%;
+            }   
+        }
+        
+        .planes_img_contenido{
+            margin-left: 62%;
+            margin-top: -95px;
+        }
+        .planes_img_contratacion{
+            margin-left: 84%;
+        }
+        .client_name span{
+            text-transform:capitalize;
+        }
+        
+    }
+}

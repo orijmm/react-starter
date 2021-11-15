@@ -1,0 +1,40 @@
+/*
+        Tema: Itaú
+        Componente: FormCarInspection
+    */
+
+@import "@sass/variables";
+
+/* Variables de estilo Tema Itaú */
+
+#main {
+  
+  .inspection_title{
+    color: #546576;
+    font-size: 16px;
+  }
+  .button_next {
+    border-radius: 12px !important;
+    width: 148px !important;
+    height: 40px !important;
+    font-family: Arial;
+  }
+  .enabled {
+    color: $orange;
+    background-color: $white;
+    font-family: Arial;
+    border-color: $orange;
+  }
+  .disabled {
+    border-color: $gray-300 !important;
+    background-color: $white !important;
+    color: $gray-500 !important;
+    font-family: Arial;
+  }
+
+  .label_error {
+    font-size: 13px;
+    font-family: Arial;
+    color: #B71C1C;
+  }
+}

@@ -1,0 +1,217 @@
+/*
+	Tema: Itaú
+
+ */
+
+/* bring in normalize.css styles */
+@import-normalize;
+
+/* Variables de estilo Tema Itaú */
+@import "variables";
+
+/* Fuentes */
+@import "fonts";
+
+/* Elementos */
+@import "icons";
+@import "helpers";
+@import "buttons";
+@import "forms";
+
+
+/* Boostrap */
+
+@import "~bootstrap/scss/bootstrap";
+
+
+/* Estilos */
+
+@import '@sass-components/box_uf.scss';
+
+body {
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#main {
+  font-family:  Arial !important;
+  max-width:    908px !important;
+  background:   $gray-100;
+}
+
+.pagination {
+  position: relative;
+	float: right;
+  margin-top: 20px;
+  
+}
+    .page-link{
+      color: #fff;
+      background-color: #fff !important;
+      border-color: #dee2e6 !important;
+      color: #43484C;
+      font-family:  Arial;
+      font-size: 14px;
+      &:focus {
+        z-index: 3;
+        border-color: #dee2e6 !important;
+        box-shadow:none;
+         color : #EC7000;
+         font-family:  Arial;
+         
+      }
+    /*   &.active .page-link {
+        z-index: 3;
+        color: #EC7000;;
+        background-color: none;
+        border-color: none;
+      } */
+    
+    }
+    .page-item {
+      &:first-child {
+        .page-link {
+          color: #fff;
+      background-color: #fff !important;
+      border-color: #dee2e6 !important;
+      color: #43484C;
+      font-family:  Arial;
+        }
+      }
+    
+    
+      &.active .page-link {
+        z-index: 3;
+        color: #EC7000;;
+        background-color: none;
+        border-color: none;
+        font-family:  Arial;
+      }
+    
+      &.disabled .page-link {
+        color: $pagination-disabled-color;
+        pointer-events: none;
+        // Opinionated: remove the "hand" cursor set previously for .page-link
+        cursor: auto;
+        background-color: $pagination-disabled-bg;
+        border-color: $pagination-disabled-border-color;
+      }
+    }
+    
+    
+    .conteo{
+      width: 200px;
+      margin-right: -20px;
+      text-align: center;
+      margin-top: 7px;
+      font-family:  Arial;
+      font-size: 14px;
+    }
+    
+
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 14px 10px 11px 12px;
+  color: #fff;
+  text-align: left;
+  background-color: #4F4B4A;
+ 
+  border-radius: 0.25rem;
+
+}
+
+
+.bs-tooltip-top {
+  padding: $tooltip-arrow-height 0;
+  
+
+  .arrow {
+    bottom: 0;
+
+    &::before {
+      top: 0;
+      border-width: $tooltip-arrow-height ($tooltip-arrow-width / 2) 0;
+      border-top-color: #4F4B4A;
+    }
+  }
+}
+.bs-tooltip-bottom {
+  padding: $tooltip-arrow-height 0;
+
+  .arrow {
+    top: 0;
+
+    &::before {
+      bottom: 0;
+      border-width: 0 ($tooltip-arrow-width / 2) $tooltip-arrow-height;
+      border-bottom-color: #4F4B4A;
+    }
+  }
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 703px; // Ensure `.modal-content` extends the full width of the parent `.modal-dialog`
+  //height: 407px;
+  // counteract the pointer-events: none; in the .modal-dialog
+  color: $modal-content-color;
+  pointer-events: auto;
+  background-color: $modal-content-bg;
+  background-clip: padding-box;
+  border: $modal-content-border-width solid $modal-content-border-color;
+  @include border-radius($modal-content-border-radius);
+  @include box-shadow($modal-content-box-shadow-xs);
+  // Remove focus outline from opened modal
+  outline: 0;
+  margin-left: -120px;
+}
+
+.pl-6, .px-6 {
+  padding-left: 6rem !important;
+}
+.pr-6, .px-6 {
+  padding-right: 6rem !important;
+}
+.btn-outline-info {
+  color: #3184C3;
+  border-color: #3184C3;
+  font-family: Arial !important;
+}
+.btn-outline-primary {
+  color:  #FA6400;
+  border-color: #FA6400;
+  font-family: Arial !important;
+}
+btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color:  #BFBFBF;
+  background-color: #FFFFFF;
+  border-color: #DFE6EE;
+  font-family: Arial !important;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+  color:  #BFBFBF;
+  background-color: #FFFFFF;
+  border-color: #DFE6EE;
+  font-family: Arial !important;
+}
+
+.btn-primary {
+  color: #ffff;
+  background-color: #FA6400;
+  border-color: #FA6400;
+  font-family: 'ItauText';
+}
+
+.color-orange {
+  color: $orange !important;
+  font-weight: normal;
+}
+
+
+

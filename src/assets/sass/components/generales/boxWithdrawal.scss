@@ -1,0 +1,65 @@
+@import "@sass/variables";
+@import "@sass/fonts";
+
+ #main {
+    .box_withdrawal{
+        border-radius: 18px;
+        margin: 0% 3% 3% -27px;
+        .border_color{
+            border-top:4px solid $blue-sparkly;
+            border-radius: 18px;   
+        }
+        .column_content {
+            border-right: 1px solid $gray-110;
+            margin: 2% 0%;
+            h3 {
+                color: $gray-670;
+                font-size: 18px;
+                font-weight: bold;
+                margin: 2% 7%;
+                font-family: "ItauText";   
+            }
+            p {
+                color: $color-text;
+                text-align: left;
+                font-size: 12px;
+                font-weight: 400;
+                font-family: "ItauText";
+                margin: 0 3% 2% 7%;
+            }
+        }
+        .column_content_contact {
+            margin: 3% 0%;
+            h3 {
+                color: $gray-660;
+                font-size: 16px;
+                font-weight: bold;
+                text-align: left;
+                margin-top: 5px;
+                font-family: "ItauText";
+                margin: 2% 10%; 
+            }
+            p {
+                color: $color-text;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: "ItauText";
+                margin: 4% 18% 4% 10%;   
+            }
+            span{
+                color: $blue-sparkly;
+                font-size: 45px;
+                margin-left: 33%;
+                line-height: 1.3;
+                font-weight: 400;
+            }
+            h5{
+                color: $blue-sparkly;
+                font-weight: bold;
+                margin-left: 19%;
+                font-size: 18px;
+            }
+        }
+    }
+ }
+ 

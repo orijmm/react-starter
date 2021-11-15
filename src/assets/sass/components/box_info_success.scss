@@ -1,0 +1,92 @@
+/*
+	Tema: Itaú
+	Componente: box_info_success
+*/
+
+@import "@sass/variables";
+@import "@sass/fonts";
+/* Variables de estilo Tema Itaú */
+
+#main {
+    .box_info_success{
+        margin: 0px;
+        padding: 35px;
+        font-family: Arial;
+        margin-bottom: 20px;
+        border: 1px solid $color-border;
+        background-color: $white;
+        text-align: center;
+
+        .icon{
+            font-size: 40px;
+            color: #565A5E;
+            border: 3px solid #565A5E;
+            border-radius: 10px;
+
+        }
+
+        .title_success{
+            padding-top: 15px;
+
+            h6{
+                position: relative;
+                font-size: 18px;
+                font-weight: bold;
+                color:$green;
+                max-width: 40%;
+                margin: auto;
+            }
+        }
+        .content_text{
+            label{
+                color: #4D5256;
+                font-size: 14px;
+                line-height: 0px;
+                margin-top: 32px;
+                font-family: Arial;
+            }
+
+        }
+        .content_link{
+            margin-bottom: 18px;
+        
+            a{
+                color: $blue-sparkly;
+                text-decoration: underline;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            
+        }
+        .footer_success{
+            background-color: $gray-250;
+           // width: 45%;
+            //margin-left: 28%;
+            display: flex;
+            padding: 13px 28px 8px 0px;
+            border-radius: 4px;
+            
+
+            label{
+                font-weight: bold;
+                border: none;
+                color: $blue-sparkly;
+                font-size: 14px;
+                margin: 10px 10px 10px 65px;
+                cursor:pointer;
+                text-align: left;
+            }
+            .icon_button{
+                font-size: 28px;
+                color: $blue-sparkly;
+                font-weight: bold;
+                margin-right: 30px;
+                margin-left: 14px;
+                margin-top: 10px;
+                position: absolute;
+            }
+           
+        }
+        
+    }
+}

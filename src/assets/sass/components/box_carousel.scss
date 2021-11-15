@@ -1,0 +1,88 @@
+/*
+	Tema: Itaú
+	Componente: BoxCarrusel
+*/
+
+@import "@sass/variables";
+
+/* Variables de estilo Tema Itaú */
+
+#main {
+    
+    .box_carousel{
+        
+        /*padding: 20px 30px;*/
+        font-family: Arial;
+        margin: 20px 0;
+        
+        .title_carousel{
+            font-family: Arial;
+            font-size: 20px;
+            text-align: center;
+            color: $gray-700;
+        }
+        .subtitle_carousel{
+            font-family: Arial;
+            h6{
+                font-size: 14xpx;
+                text-align: center;
+                color: $gray-700;
+            }
+        }
+
+        .carousel{
+
+            &:hover {
+                .carousel-control-next-icon{
+                    opacity: 1;
+                }
+                .carousel-control-prev-icon{
+                    opacity: 1;
+                }
+            }
+
+            .carousel-control-next-icon{
+                background-color: gray;
+                background-size: 15px;
+                clip-path: circle(50% at 50% 50%);
+                position: absolute;
+                padding: 14px;
+                left: 114px;
+                opacity: 0.3;
+            }
+
+            .carousel-control-prev-icon{
+                background-color: gray;
+                background-size: 15px;
+                clip-path: circle(50% at 50% 50%);
+                position: absolute;
+                padding: 14px;
+                right: 114px;
+                opacity: 0.3;
+            }
+
+            .box_image{
+
+                h5{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+
+                .btn{
+                    background-color: $white;
+                    color: $orange;
+                    transition: all ease-in-out 0.3s;
+                    margin-top: -40px;
+
+                    &:hover{
+                        background-color: $white;
+                        color: $orange;
+                    }
+                }
+
+            }
+
+
+        }
+    }
+}

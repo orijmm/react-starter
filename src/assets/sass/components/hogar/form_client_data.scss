@@ -1,0 +1,240 @@
+/*
+        Tema: Itaú
+        Componente: FormCarData
+    */
+
+@import "@sass/variables";
+@import "@sass/fonts";
+
+/* Variables de estilo Tema Itaú */
+
+#main {
+
+  .form_client_data {
+    font-family: ItauText;
+    background-color: $white;
+    margin-bottom: 20px;
+    
+    .row-inner {
+      padding: 14px;
+
+      .date {
+        display: flex;
+        flex-wrap: wrap;
+
+        label {
+          padding: 0px;
+        }
+
+        .datePickerData {
+          padding-left: 14px;
+          border: 1px solid $gray-400;
+          height: 40px;
+          width: 89%;
+          color: $gray-700;
+          margin-right: -8px;
+        }
+
+        .icon {
+          position: absolute;
+          right: 38% !important;
+          top: -17px;
+          position: absolute;
+          right: 58%;
+          font-size: 24px;
+          margin-top: 56px;
+          color: $gray-800;
+        }
+
+        .react-datepicker-popper[data-placement^="bottom"] {
+          z-index: 1000;
+        }
+      }
+
+      h6 {
+        color: $gray-700;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+      }
+
+      .form_client_data_column_title {
+        font-size: 16px;
+        color: $orange;
+        font-weight: bold;
+        text-transform: lowercase;
+        font-family: Arial;
+        &:first-letter {
+          text-transform: uppercase;
+        }
+      }
+      .textPicker {
+        display: block;
+      }
+
+      .form_client_data_title {
+        padding-top: 15px;
+        padding-left: 49px;
+
+        .num_data {
+          color: $white;
+          font-weight: bold;
+          font-family: Arial;
+          background-color: $orange;
+          border-radius: 50%;
+          padding: 6px 11px;
+          margin: 0 11px 0 -34px;
+          font-size: 17px;
+        }
+
+        .title_data {
+          font-weight: bold;
+          color: $gray-700;
+          font-size: 18px;
+          margin-left: 7px;
+          margin-top: 10px;
+        }
+      }
+      .box_info {
+        border-radius: 8px;
+        background-color: $gray-250;
+        padding: 10px 25px;
+        margin: 33px 57px 33px 85px;
+        width: 728px !important;
+        height: 74px !important;
+
+        p {
+          color: $blue-sparkly;
+          font-size: 12px;
+          margin: 0px 4px 2px 0px;
+          font-weight: 400;
+          font-family: "ItauText";
+        }
+        b {
+          color: $blue-sparkly;
+          font-size: 12px;
+          margin: 0px 4px 2px 0px;
+          font-weight: bold;
+          font-family: "ItauText";
+        }
+      }
+
+      .form_client_data_row {
+        padding: 31px 48px 22px 56px;
+
+        .form_client_data_column {
+          padding-right: 100px;
+          line-height: 21px;
+          padding-left: 11px;
+
+          label {
+            font-size: 14px;
+            color: $gray-700;
+            padding-top: 26px;
+            margin-bottom: 3px;
+            text-transform: lowercase;
+            font-weight: 400;
+            &:first-letter {
+              text-transform: uppercase;
+            }
+          }
+
+          .factura {
+            .title_factura {
+              font-size: 14px;
+              font-weight: bold;
+              counter-reset: $gray-700;
+              margin-top: 14px;
+            }
+
+            p {
+              font-size: 14px;
+              color: $gray-800;
+              font-weight: 400;
+            }
+
+            .button_adjuntar {
+              background-color: $white;
+              color: $gray-700;
+              border-color: $gray-700;
+              border-radius: 3px;
+              padding: 6px 21px 6px 21px;
+              font-size: 12px;
+              max-width: 100px;
+            }
+
+            .text_formato {
+              font-size: 13px;
+              display: block;
+              font-style: italic;
+              padding-top: 8px;
+              color: $gray-700;
+              font-weight: 400;
+              font-family: Arial;
+            }
+          }
+
+          .celular {
+            padding-left: 2px;
+          }
+
+          .form-control {
+            padding-top: 3px;
+            padding-bottom: 0px;
+            height: 37px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #4d5256;
+          }
+        }
+      }
+
+      .form_client_data_check {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        padding: 0px 0px 0px 54px;
+        height: 15px;
+
+        .form_check_text {
+          font-size: 14px;
+          color: $gray-700;
+          margin-left: 10px;
+          text-transform: none;
+          font-weight: 400;
+          margin-top: 6px;
+        }
+      }
+
+      .text_footer {
+        font-size: 12px;
+        text-align: justify;
+        padding: 2px 90px 30px 63px;
+        color: $gray-700;
+        font-weight: 400;
+      }
+
+      .form_client_data_footer {
+        padding: 0px 50px 11px 50px;
+        text-align: right;
+
+        .button_footer {
+          border-color: $gray-300;
+          background-color: $white;
+          color: $blue-sparkly;
+          margin: 7px;
+          width: 19%;
+          text-align: center;
+          font-size: 14px;
+          font-family: Arial;
+        }
+        .button_footer_next {
+          border-color: $gray-300;
+          background-color: $white;
+          color: $gray-500;
+          margin: 7px;
+          width: 19%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
