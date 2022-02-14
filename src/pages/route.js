@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import VidaClasico from "../pages/vida_clasico/index"; 
+import Seguros from "../pages/seguros/index"; 
 
 const RoutePages = () => {
 
     return (
         <>
-           <VidaClasico/>
+           <Seguros/>
         </>
     )
 }

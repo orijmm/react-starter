@@ -1,14 +1,14 @@
 /* Aqui deberian ir todas las paginas del proyecto eredar la informacion desde aqui
  */
 import React, {useEffect } from "react";
-import HomeVidaClasico from "./Home/index";
+import HomeSeguros from "./home/index";
 
 import { useSelector, useDispatch } from "react-redux";
 import { setPage } from "../../actions";
 
 import Preloader from '../../components/preloader';
 
-const VidaClasico = () => {
+const Seguros = () => {
   const dispatch = useDispatch();
   const page = useSelector((state) => state.page)
 
@@ -23,9 +23,9 @@ const VidaClasico = () => {
   return (
     <div>
       {page === "PRELOADER" ? <Preloader /> : <div></div>}
-      {page === "HOME" ? <HomeVidaClasico /> : <div></div>}
+      {page === "HOME" ? <HomeSeguros /> : <div></div>}
     </div>
   )
 }
 
-export default VidaClasico
+export default Seguros
