@@ -43,6 +43,16 @@
 
         }
 
+        .card-h4{
+            font-size: 16px;
+        }
+
+        .card-content-bordered{
+            border: 2px solid $gray-110;
+            border-radius: 3px;
+            padding: 10px;
+        }
+
         .card-text-pdf{
             background-color: $blue;
             padding: 5px;

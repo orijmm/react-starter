@@ -2,6 +2,7 @@
  */
 import React, {useEffect } from "react";
 import HomeSeguros from "./home/index";
+import DetailsInsurance from "./detailsinsurance/index";
 
 import { useSelector, useDispatch } from "react-redux";
 import { setPage } from "../../actions";
@@ -24,6 +25,7 @@ const Seguros = () => {
     <div>
       {page === "PRELOADER" ? <Preloader /> : <div></div>}
       {page === "HOME" ? <HomeSeguros /> : <div></div>}
+      {page === "DETAILS_INSURANCE" ? <DetailsInsurance /> : <div></div>}
     </div>
   )
 }
