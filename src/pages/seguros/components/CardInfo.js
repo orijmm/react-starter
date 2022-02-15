@@ -34,7 +34,7 @@ const CardInfo = ({ Title, Subtitle, Parag, Parag2, Parag3, icon = null }) => {
                                         <br></br>
                                     </Col>
                                     <Col className='text-right'>
-                                        <div onClick={() => detailsPage('1243')} className={"icon-x3 icon-itaufonts_busca_consulta"} ></div>
+                                        <div onClick={() => detailsPage('1243')} className={"icon-x3 icon-itaufonts_busca_consulta card-change-page"} ></div>
                                     </Col>
                                 </Row>
                             </Col>
