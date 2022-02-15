@@ -21,24 +21,33 @@
             color:$amber;
             font-weight: 400;
             line-height: 1.5;
+        }  
+        .icon-x3{
+            font-size: 3rem;
+            font-family: 'itaufonts_master_24px_v1';
+            color:$amber;
+            font-weight: 400;
+            left: 0;
         }       
         .card-title{
             font-size: 14px;
             font-family: 'ItauText';
             color:$color-text;
             font-weight: bold;
-            text-align: center;
-            width: 120%;
-            height: 40%;
-            margin: 1px -15px 0px;
         }
         .card-text{
             font-size: 11px;
             font-family: 'ItauText';
             color:$gray-640 !important;
             font-weight: 400;
-            text-align: center;            
-            margin: 0 -17px;
+
+        }
+
+        .card-text-pdf{
+            background-color: $blue;
+            padding: 5px;
+            border-radius: 3px;
+            color: $gray-050;
         }
     }
 }
