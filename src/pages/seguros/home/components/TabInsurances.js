@@ -19,7 +19,7 @@ const TabInsurances = () => {
                     patente: "ASD3456",
                     url_comporbante: "https://itau-desarrollo.alwayson.cl/storage/pdf/7743_16.789.913-7_nuevo_automotriz.pdf",
                     url_poliza: "",
-                    num_poliza: "sdfdsf43536",
+                    num_poliza: "SDF3454",
                     materia_asegurada: "subaru outback 2019"
                 },
                 {
@@ -118,8 +118,7 @@ const TabInsurances = () => {
     };
     return (
         <>
-            <Container id="main" fluid="fluid">
-
+            <Container className='box-insurance-query' id="main" fluid="fluid">
                 <Tabs defaultActiveKey="auto" id="uncontrolled-tab-example" className="mb-3">
                     <Tab eventKey="auto" title="AUTO">
                         <ListInsurances list={insurancesList.auto.list_insurances} icon="icon-itaufonts_full_seguro_auto" />
@@ -128,7 +127,7 @@ const TabInsurances = () => {
                         <ListInsurances list={insurancesList.vida.list_insurances} icon="icon-itaufonts_seguro_vida" />
                     </Tab>
                     <Tab eventKey="proteccion" title="PROTECCIÓN">
-                        <ListInsurances list={insurancesList.proteccion.list_insurances} icon="icon-itaufonts_seguro_de_credito" />
+                        <ListInsurances list={insurancesList.proteccion.list_insurances} icon="icon-itaufonts_seguro_cartao" />
                     </Tab>
                     <Tab eventKey="hogar" title="HOGAR">
                         <ListInsurances list={insurancesList.hogar.list_insurances} icon="icon-itaufonts_seguro_residencia" />

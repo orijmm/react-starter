@@ -7,13 +7,13 @@ import { setPage } from '../../../actions';
 const CardInfo = ({ Title, Subtitle, Parag, Parag2, Parag3, icon = null }) => {
     const dispatch = useDispatch();
 
-    const detailsPage = ( idInsurance ) => {
+    const detailsPage = (idInsurance) => {
         dispatch(setPage("PRELOADER"));
         setTimeout(() => {
-          dispatch(setPage("DETAILS_INSURANCE"));
+            dispatch(setPage("DETAILS_INSURANCE"));
         }, 3000);
     }
-    
+
     return (
         <>
             <Card className="cardInfo mb-2">
@@ -21,7 +21,7 @@ const CardInfo = ({ Title, Subtitle, Parag, Parag2, Parag3, icon = null }) => {
                     <Card.Title className="text-left"><span className={"icon-x3 " + icon} ></span></Card.Title>
                     <Card.Text as="div" className="mb-2 ml-3">
                         <Row>
-                            <Col className='card-content-bordered' md={8}>
+                            <Col className='card-content-bordered' md={6}>
                                 <div className='card-h4 mb-0'>{Title}</div>
                                 <Row>
                                     <Col>
@@ -38,13 +38,23 @@ const CardInfo = ({ Title, Subtitle, Parag, Parag2, Parag3, icon = null }) => {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col md={2} className='text-center'>
+                            <Col md={3} className='text-center'>
                                 <div className={"icon-x3 icon-itaufonts_full_pdf"} ></div>
-                                <div className='card-text-pdf'>Póliza</div>
+                                <Button
+                                    className="btn"
+                                    variant="outline-info"
+                                >
+                                    Póliza
+                                </Button>
                             </Col>
-                            <Col md={2} className='text-center'>
+                            <Col md={3} className='text-center'>
                                 <div className={"icon-x3 icon-itaufonts_full_pdf"} ></div>
-                                <div className='card-text-pdf'>Certificado</div>
+                                <Button
+                                    className="btn"
+                                    variant="outline-info"
+                                >
+                                    Certificado
+                                </Button>
                             </Col>
                         </Row>
                     </Card.Text>
