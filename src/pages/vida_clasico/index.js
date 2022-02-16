@@ -1,7 +1,7 @@
 /* Aqui deberian ir todas las paginas del proyecto eredar la informacion desde aqui
  */
 import React, {useEffect } from "react";
-import HomeVidaClasico from "./Home/index";
+import HomeVidaClasico from "./home/index";
 
 import { useSelector, useDispatch } from "react-redux";
 import { setPage } from "../../actions";
